@@ -4,8 +4,8 @@
 
 ## TODOS
 
-- [ ] make it deploy (vercel)
-- [ ] scaffold basic ui with mock data
+- [x] make it deploy (vercel)
+- [x] scaffold basic ui with mock data
 - [ ] setup db (vercel pg)
 - [ ] attach db to the ui
 - [ ] add authentication (/w clerk)
