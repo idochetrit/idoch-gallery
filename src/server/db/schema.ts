@@ -4,7 +4,6 @@
 import { sql } from "drizzle-orm";
 import {
   index,
-  jsonb,
   pgTableCreator,
   serial,
   timestamp,
@@ -18,7 +17,7 @@ import {
  * @see https://orm.drizzle.team/docs/goodies#multi-project-schema
  */
 export const createTable = pgTableCreator((name) => `idoch-gallery_${name}`);
-type Content = { title: string; body: string };
+
 export const posts = createTable(
   "post",
   {
