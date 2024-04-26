@@ -6,9 +6,11 @@
 
 - [x] make it deploy (vercel)
 - [x] scaffold basic ui with mock data
-- [ ] setup db (vercel pg)
-- [ ] attach db to the ui
-- [ ] add authentication (/w clerk)
+- [x] setup db (vercel pg)
+- [x] attach db to the ui
+- [x] add authentication (/w clerk)
+- [ ] use taint (server)
+- [ ] use nextjs Image component
 - [ ] add image upload
 - [ ] Error managment (sentry)
 - [ ] Routing / image page 
