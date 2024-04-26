@@ -13,7 +13,9 @@ const mockedUrls = [
 ];
 
 export default async function HomePage() {
-  const images = await db.query.images.findMany();
+  const images = await db.query.images.findMany({
+    orderBy: (image, { desc }) => desc(image.id)
+  });
   console.log(images);
 
   return (
